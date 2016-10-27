@@ -1,0 +1,143 @@
+h3 {
+	font-family: 'Allerta', cursive;
+	line-height: 55px;
+}
+h5{
+	font-family: 'Allerta', cursive;
+}
+ 
+p {
+	font-family: 'Potano Sans', sans-serif;
+	font-size: 16px;
+	display: block;
+}
+
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.div{
+	display: block;
+}
+
+body{
+	margin: 0px;
+	display: block;
+
+}
+
+#graphimage{
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.navbar{
+	background-color: #4484CE;
+	min-height: 80px;
+	line-height: 100px:
+}
+
+.navbar-static-top{
+	border-radius: 0px;
+}
+
+.navbar a{
+	line-height: 55px;
+	border-radius: 0px;
+}
+
+.navbar-brand{
+	line-height: 55px;
+	font-family: 'Allerta', cursive;
+	
+}
+
+.jumbotron-fluid{
+	background-color: #F2F2F2;
+	height: 300px;
+}
+
+.centered{
+	text-align: center;
+}
+
+#topsection {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #F2F2F2;
+	display: block;
+}
+
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.feature{
+	background-color: #4484CE;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	border-radius: 15px;
+}
+
+.colorA{
+	background-color: #4484CE;
+	color: white;
+	
+}
+
+.colorB{
+	background-color: #D9D9D9;
+}
+
+.linkbutton{
+	margin: 10px;
+	width: 100px;
+	background-color: #F2F2F2;
+	margin-bottom: 20px;
+}
+
+.giticon{
+	height: 15px;
+	width: 15px;
+	margin-top: -3px;
+	
+}
+
+#flag{
+	height: 25px;
+	width: 25px;
+	margin-top: -5px;
+}
+
+
+.abouts p{
+	line-height: 30px;
+	margin-left: 30px;
+}
+
+#location p{
+	font-size: 24px;
+	font-family: 'Allerta', cursive;
+}
+
+[alt-center]{
+	display:block;
+	margin: auto;
+}
+
+/* color scheme 
+neutral background #EFEFEF
+cerulean #4484CE
+aluminum # D9D9D9
+light #F9CF00
+tangerine #F19F4D
+https://designschool.canva.com/blog/website-color-schemes/ 
+*/
