@@ -1,0 +1,39 @@
+KnitPost <- function(input) {
+  require(knitr)
+  opts_knit$set(base.url = "http://mjw11.github.com")
+  fig.path <- paste0("images/", sub(".Rmd$", "", basename(input)), "/")
+  opts_chunk$set(fig.path = fig.path)
+  opts_chunk$set(fig.cap = "center")
+  render_jekyll()
+  knit(input, envir = parent.frame())
+}
+
+
+
+knitPost <- function(input, base.url = "http://mjw11.github.com") {
+    require(knitr)
+    opts_knit$set(base.url = base.url)
+    fig.path <- paste0("../images/", sub(".Rmd$", "", basename(input)), "/")
+    opts_chunk$set(fig.path = fig.path)
+    opts_chunk$set(fig.cap = "center")
+    render_jekyll()
+    print(paste0("../_posts/", sub(".Rmd$", "", basename(input), ignore.case = TRUE), ".md"))
+    knit(input, output = paste0("../_posts/", sub(".Rmd$", "", basename(input), ignore.case = TRUE), ".md"), 
+         envir = parent.frame())
+}
+
+knitPost <- function(input){
+  require(knitr)
+  opts_knit$set(base.url = "mjw11.github.com")
+  opts_chunk$set(fig.path = "/images")
+  render_jekyll()
+  knit(input)
+}
+
+knitPost <- function(input){
+    require(knitr)
+    opts_knit$set(base.url = "/")
+    opts_chunk$set(fig.path = paste0("images/",sub(".Rmd$", "", basename(input)), "/"))
+    render_jekyll()
+    knit(input)
+}
