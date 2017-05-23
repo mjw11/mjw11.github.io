@@ -1,3 +1,9 @@
+@media(max-width: 480px){
+	.thumb-image{
+		display: none;
+	}
+}
+
 h1 {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -26,12 +32,10 @@ p {
 	
 /* 	border: 2px solid green; */
 	
-	margin-bottom: 1px;
-	margin-top: 30px;
-	padding-bottom: 10px;
-	padding-top: 30px;
-	
-	
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 28px;
 	
 }
 
@@ -39,21 +43,26 @@ p {
 	display: inline-block;
 	float: none;
 	padding-top: 5px;
-	padding-bottom: 5px;
-	height: 40px;
-	vertical-align: middle;
+	padding-bottom: 15px;
+	height: 60px;
 /* 	border: 2px solid red; */
 	margin-top: 0px;
-	margin-bottom: 1px;
+	margin-bottom: 0px;
 }
 
-.border-testing{
+#bio {
+	margin-top: 00px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+/* 	border: 2px solid blue; */
 }
+
 
 .navbar-nav> li {
 	display: inline-block;
 	float: none;
-	padding-right: 10px;
+	padding-right: 15px;
 }
 
 .text-center {
@@ -82,9 +91,3 @@ a {
 	font-size: 22px;
 }
 
-#bio {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-}
