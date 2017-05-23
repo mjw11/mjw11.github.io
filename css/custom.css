@@ -19,21 +19,35 @@ p {
 }
 
 .jumbotron {
-	height: 50px;
+	height: 100px;
 	width: 100%;
 	background-color: white;
 	text-align: center;
-	margin-bottom: 0px;
+	
+/* 	border: 2px solid green; */
+	
+	margin-bottom: 1px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	
+	
+	
 }
 
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
-	padding-top: 0px;
-	padding-bottom;
-	0px;
-	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 40px;
 	vertical-align: middle;
+/* 	border: 2px solid red; */
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+
+.border-testing{
 }
 
 .navbar-nav> li {
@@ -71,4 +85,6 @@ a {
 #bio {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
