@@ -78,6 +78,11 @@ p {
 	border-radius: 15px;
 }
 
+.notebook-feature{
+	padding: 10px;
+	margin-top: 10px;
+}
+
 .thumb-image {
 	height: 150px;
 	width: 150px;
